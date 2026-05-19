@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 import gallery1 from "../assets/DSC_6525.JPG";
-import gallery3 from "../assets/service-2.jpg";
-import gallery4 from "../assets/service-1.jpg";
+import gallery3 from "../assets/service-2.JPG";
+import gallery4 from "../assets/service-1.JPG";
 import gallery5 from "../assets/DSC_6209.JPG";
-import gallery6 from "../assets/Customer1.png";
-import gallery7 from "../assets/DSC_6198.jpg";
+import gallery6 from "../assets/Customer1.JPG";
+import gallery7 from "../assets/DSC_6198.JPG";
 import gallery8 from "../assets/DSC_6194.JPG";
 import gallery9 from "../assets/DSC_6066.JPG";
 
