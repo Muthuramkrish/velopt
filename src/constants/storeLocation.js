@@ -4,7 +4,7 @@ export const STORE_LNG = 78.118756;
 
 /** Matches Google Maps business address */
 export const STORE_ADDRESS =
-  "Opp: Anand Medicals, 196 West, N Car St, near Govt Girls Higher Secondary School, Thiruchendur, Tamil Nadu 628215";
+  "Opp: Anand Medicals, 196 West, N Car St, near Govt Girls Higher Secondary School, Tiruchendur, Tamil Nadu 628215";
 
 /** Iframe: same center & zoom (17) as the Maps place view */
 export const mapsEmbedUrl = `https://maps.google.com/maps?q=${STORE_LAT},${STORE_LNG}&z=17&hl=en&output=embed`;

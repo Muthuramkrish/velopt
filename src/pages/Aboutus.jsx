@@ -123,7 +123,7 @@ function Aboutus() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-lg md:text-xl lg:text-2xl text-gray-200 leading-relaxed max-w-4xl mx-auto mb-8"
             >
-              <strong className="text-white font-semibold">VEL OPTICALS, Thiruchendur</strong> carries forward the same
+              <strong className="text-white font-semibold">VEL OPTICALS, Tiruchendur</strong> carries forward the same
               clinical standards and optical expertise as our flagship centre,{" "}
               <strong className="text-white font-semibold">Raj Eye Care &amp; Opticals</strong> in Sattur—where our
               journey in advanced eye care began in 2015. Your vision is our mission, at every branch.
@@ -151,7 +151,7 @@ function Aboutus() {
             Trusted eye-care network
           </p>
           <h2 className="text-center text-2xl md:text-3xl font-bold text-gray-900 mb-8">
-            Flagship centre &amp; Thiruchendur branch
+            Flagship centre &amp; Tiruchendur branch
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-blue-100 hover:border-blue-200 transition-colors">
@@ -175,13 +175,13 @@ function Aboutus() {
             </div>
             <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-emerald-100 hover:border-emerald-200 transition-colors">
               <p className="text-xs font-bold uppercase tracking-wide text-emerald-700 mb-3">
-                Thiruchendur — this location
+                Tiruchendur — this location
               </p>
               <h3 className="text-xl font-bold text-gray-900 mb-2">VEL OPTICALS</h3>
               <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                 A professional extension of the same team values and quality benchmarks as our Sattur flagship—bringing
                 expert eye testing, contact lenses, and premium eyewear to{" "}
-                <span className="font-medium text-gray-800">Thiruchendur</span> with the reliability patients expect from
+                <span className="font-medium text-gray-800">Tiruchendur</span> with the reliability patients expect from
                 our network.
               </p>
             </div>
@@ -215,7 +215,7 @@ function Aboutus() {
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Our Journey</h2>
             <p className="text-gray-600 text-sm sm:text-base">
               Milestones from our flagship journey in Sattur—the clinical depth we uphold at every branch, including
-              VEL OPTICALS, Thiruchendur.
+              VEL OPTICALS, Tiruchendur.
             </p>
           </div>
 
@@ -281,7 +281,7 @@ function Aboutus() {
       <section className="py-12 bg-gradient-to-br from-blue-50 to-orange-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-4 sm:space-y-6 text-gray-700">
           <p className="text-base sm:text-lg leading-relaxed font-medium">
-            From our first branch in Sattur to Thiruchendur, our progress reflects one commitment: accurate, reliable, and
+            From our first branch in Sattur to Tiruchendur, our progress reflects one commitment: accurate, reliable, and
             compassionate eye care—wherever you meet us in our network.
           </p>
           <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200 mt-6">
