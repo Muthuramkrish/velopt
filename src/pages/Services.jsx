@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import backgroundImage from "../assets/bg5.jpg";
 import service1 from "../assets/DSC_6198.jpg";
 import service2 from "../assets/DSC_6209.JPG";
-import service3 from "../assets/DSC_6224.JPG";
+import service3 from "../assets/DSC_6224.jpg";
 import { FaArrowRight, FaStar, FaEye } from "react-icons/fa";
 
 const servicesSummary = [

@@ -8,7 +8,7 @@ import gallery4 from "../assets/service-1.jpg";
 import gallery5 from "../assets/DSC_6209.JPG";
 import gallery6 from "../assets/Customer1.JPG";
 import gallery7 from "../assets/DSC_6198.jpg";
-import gallery8 from "../assets/DSC_6224.JPG";
+import gallery8 from "../assets/DSC_6224.jpg";
 import gallery9 from "../assets/DSC_6066.JPG";
 
 import showcaseSunglasses from "../assets/showcase_sunglasses.jpg";
