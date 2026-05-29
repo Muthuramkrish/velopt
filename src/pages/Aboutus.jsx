@@ -50,10 +50,10 @@ function Aboutus() {
       description:
         "Our clinic began its operations on 22 April 2015 with a strong foundation in essential eye-care diagnostics.",
       equipment: [
-        "Topcon Autorefracto Meter",
-        "Topcon Lensometer & Auto Lens Edger",
+        "Nidek Autorefracto Meter",
+        "LABOMED Lensometer & Auto Lens Edger",
         "Topcon Non-Contact Tonometer",
-        "Topcon Slit Lamp",
+        "Remidio Photo Slit Lamp",
         "Essilar PD Meter",
         "Digital Eye Chart",
       ],

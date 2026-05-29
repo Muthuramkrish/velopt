@@ -8,18 +8,25 @@ import gallery4 from "../assets/service-1.jpg";
 import gallery5 from "../assets/DSC_6209.JPG";
 import gallery6 from "../assets/Customer1.JPG";
 import gallery7 from "../assets/DSC_6198.jpg";
-import gallery8 from "../assets/DSC_6194.JPG";
+import gallery8 from "../assets/DSC_6224.JPG";
 import gallery9 from "../assets/DSC_6066.JPG";
 
+import showcaseSunglasses from "../assets/showcase_sunglasses.jpg";
+import clinicInterior from "../assets/clinic_interior.jpg";
+import storeFrontSign from "../assets/store_front_sign.jpg";
+
 const galleryImages = [
-  { id: 1, src: gallery1, category: "shop", title: "Store Front" },
-  { id: 2, src: gallery3, category: "shop", title: "Frame Selection" },
-  { id: 3, src: gallery4, category: "service", title: "Vision Testing" },
-  { id: 4, src: gallery5, category: "service", title: "Lens Fitting" },
-  { id: 5, src: gallery6, category: "service", title: "Customer Care" },
-  { id: 6, src: gallery7, category: "shop", title: "Consultation Area" },
-  { id: 7, src: gallery8, category: "service", title: "Eye Examination" },
-  { id: 8, src: gallery9, category: "shop", title: "Eyewear Showcase" },
+  { id: 1, src: storeFrontSign, category: "shop", title: "Store Front & Signboards" },
+  { id: 2, src: clinicInterior, category: "shop", title: "Optometry Consultation Clinic" },
+  { id: 3, src: showcaseSunglasses, category: "shop", title: "Premium Sunglasses Display" },
+  { id: 4, src: gallery1, category: "shop", title: "Store Front" },
+  { id: 5, src: gallery3, category: "shop", title: "Frame Selection" },
+  { id: 6, src: gallery4, category: "service", title: "Vision Testing" },
+  { id: 7, src: gallery5, category: "service", title: "Lens Fitting" },
+  { id: 8, src: gallery6, category: "service", title: "Customer Care" },
+  { id: 9, src: gallery7, category: "shop", title: "Consultation Area" },
+  { id: 10, src: gallery8, category: "service", title: "Eye Examination" },
+  { id: 11, src: gallery9, category: "shop", title: "Eyewear Showcase" },
 ];
 
 // Memoized gallery card for performance
@@ -29,13 +36,12 @@ const GalleryCard = memo(({ image, isCenter, onClick, isMobile }) => (
       onClick={onClick}
       whileHover={{ scale: isMobile ? 1.02 : 1.05 }}
       transition={{ duration: 0.3 }}
-      className={`rounded-full overflow-hidden border-4 border-white shadow-lg cursor-pointer ${
-        isMobile
+      className={`rounded-full overflow-hidden border-4 border-white shadow-lg cursor-pointer ${isMobile
           ? "w-48 h-48 sm:w-56 sm:h-56"
           : isCenter
-          ? "w-40 h-40 md:w-40 md:h-40 lg:w-40 lg:h-40 scale-105"
-          : "w-32 h-32 md:w-32 md:h-32 lg:w-32 lg:h-32 scale-90"
-      }`}
+            ? "w-40 h-40 md:w-40 md:h-40 lg:w-40 lg:h-40 scale-105"
+            : "w-32 h-32 md:w-32 md:h-32 lg:w-32 lg:h-32 scale-90"
+        }`}
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: isCenter ? 1.05 : 0.9 }}
     >
@@ -51,16 +57,14 @@ const GalleryCard = memo(({ image, isCenter, onClick, isMobile }) => (
     {(isMobile || isCenter) && (
       <div className={`text-center mt-2 ${isMobile ? "px-4" : ""}`}>
         <p
-          className={`font-medium text-gray-700 ${
-            isMobile ? "text-lg" : "text-sm md:text-base"
-          }`}
+          className={`font-medium text-gray-700 ${isMobile ? "text-lg" : "text-sm md:text-base"
+            }`}
         >
           {image.title}
         </p>
         <span
-          className={`text-blue-600 bg-blue-100 px-2 py-1 rounded-full mt-1 inline-block ${
-            isMobile ? "text-sm" : "text-xs"
-          }`}
+          className={`text-blue-600 bg-blue-100 px-2 py-1 rounded-full mt-1 inline-block ${isMobile ? "text-sm" : "text-xs"
+            }`}
         >
           {image.category}
         </span>
@@ -139,9 +143,8 @@ function FeaturedHighlights() {
             <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5 h-0.5 bg-blue-200"></div>
           )}
           <div
-            className={`relative flex items-center justify-center ${
-              isMobile ? "gap-0" : "gap-4 md:gap-8 lg:gap-16"
-            } z-10`}
+            className={`relative flex items-center justify-center ${isMobile ? "gap-0" : "gap-4 md:gap-8 lg:gap-16"
+              } z-10`}
           >
             {visibleImages.map((image, idx) => (
               <GalleryCard
@@ -198,11 +201,10 @@ function FeaturedHighlights() {
               key={index}
               whileTap={{ scale: 0.9 }}
               onClick={() => setCurrentIndex(index)}
-              className={`w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition-all ${
-                index === currentIndex
+              className={`w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition-all ${index === currentIndex
                   ? "bg-blue-600 scale-125"
                   : "bg-gray-300 hover:bg-gray-400"
-              }`}
+                }`}
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}

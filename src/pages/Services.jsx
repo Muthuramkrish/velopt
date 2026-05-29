@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import backgroundImage from "../assets/bg5.jpg";
 import service1 from "../assets/DSC_6198.jpg";
 import service2 from "../assets/DSC_6209.JPG";
-import service3 from "../assets/DSC_6194.JPG";
+import service3 from "../assets/DSC_6224.JPG";
 import { FaArrowRight, FaStar, FaEye } from "react-icons/fa";
 
 const servicesSummary = [
@@ -125,7 +125,7 @@ function Services() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base md:text-lg text-gray-200 leading-relaxed mb-6"
           >
-            From preventive checkups to advanced treatments, we provide complete  
+            From preventive checkups to advanced treatments, we provide complete
             eye care solutions designed for every stage of life.
           </motion.p>
 

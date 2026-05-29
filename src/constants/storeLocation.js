@@ -15,3 +15,6 @@ export const mapsEmbedUrl = `https://maps.google.com/maps?q=${STORE_LAT},${STORE
  */
 export const mapsOpenUrl =
   "https://www.google.com/maps/place/VEL+OPTICALS/@8.4972235,78.118756,17z/data=!3m1!4b1!4m6!3m5!1s0x3b039134d5da9cd9:0x6a7d4c1e19e11bdd!8m2!3d8.4972235!4d78.118756!16s%2Fg%2F11ybxyk8_b";
+
+/** Opens Google reviews panel directly for VEL OPTICALS */
+export const mapsReviewsUrl = "https://www.google.com/search?q=VEL+OPTICALS+Tiruchendur#lrd=0x3b039134d5da9cd9:0x6a7d4c1e19e11bdd,1";

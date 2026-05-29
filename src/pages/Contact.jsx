@@ -48,8 +48,7 @@ function Contact() {
       label: "Open Hours",
       content: (
         <p className="text-gray-700 text-xs sm:text-sm">
-          Mon - Sat: 9 AM - 9 PM<br />
-          Sunday: 9 AM - 8 PM
+          Mon - Sat: 9 AM - 8 PM<br />
         </p>
       ),
     },

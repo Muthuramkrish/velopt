@@ -29,7 +29,7 @@ const servicesSummary = [
   {
     number: "01",
     title: "Comprehensive Eye Checkups",
-    desc: "Complete eye health assessment including primary tests: Computerized topcon Autorefractor Vision Test, Color Blind Test, Duochrome Test, Confrontation Test, Extraocular Muscle Test, Brenn Leary Test for complete vision evaluation, Slit Lamp Test for cornea, and Topcon non contact computerized tonometer for Eye Pressure Test.",
+    desc: "Complete eye health assessment including primary tests: Computerized Nidek Autorefractor Vision Test, Color Blind Test, Duochrome Test, Confrontation Test, Extraocular Muscle Test, Brenn Leary Test for complete vision evaluation, Slit Lamp Test for cornea, and Topcon non contact computerized tonometer for Eye Pressure Test.",
     image: service1,
     freeService: true,
     features: ["Computerized Vision Test", "Eye Pressure Test", "Slit Lamp test", "Color Blind Test", "Duochrome Test", "Confrontation Test", "Extraocular Muscle Test"]

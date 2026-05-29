@@ -79,10 +79,10 @@ function Aboutus() {
 
 
   const diagnosticTools = [
-    { name: "Topcon Autorefracto Meter", Icon: FaEye, color: "bg-blue-500" },
-    { name: "Topcon Lensometer & Auto Lens Edger", Icon: FaTools, color: "bg-green-500" },
+    { name: "Nidek Autorefracto Meter", Icon: FaEye, color: "bg-blue-500" },
+    { name: "LABOMED Lensometer & Auto Lens Edger", Icon: FaTools, color: "bg-green-500" },
     { name: "Topcon Non-Contact Tonometer", Icon: FaMicroscope, color: "bg-purple-500" },
-    { name: "Topcon Slit Lamp", Icon: TbLamp2, color: "bg-amber-500" },
+    { name: "Remidio Photo Slit Lamp", Icon: TbLamp2, color: "bg-amber-500" },
     { name: "Essilar PD Meter", Icon: FaMicroscope, color: "bg-purple-500" },
     { name: "Digital Eye Chart", Icon: FaMicroscope, color: "bg-red-500" }
   ];
