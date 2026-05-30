@@ -11,7 +11,7 @@ import gallery7 from "../assets/DSC_6198.jpg";
 import gallery8 from "../assets/DSC_6224.jpg";
 import gallery9 from "../assets/DSC_6066.JPG";
 
-import showcaseSunglasses from "../assets/showcase_sunglasses.jpg";
+import showcaseSunglasses from "../assets/showcase_sunglasses.png";
 import clinicInterior from "../assets/clinic_interior.jpg";
 import storeFrontSign from "../assets/store_front_sign.jpg";
 
