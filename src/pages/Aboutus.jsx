@@ -50,12 +50,14 @@ function Aboutus() {
       description:
         "Our clinic began its operations on 22 April 2015 with a strong foundation in essential eye-care diagnostics.",
       equipment: [
-        "Nidek Autorefracto Meter",
-        "LABOMED Lensometer & Auto Lens Edger",
-        "Topcon Non-Contact Tonometer",
-        "Remidio Photo Slit Lamp",
+        "Nidek Auto Refractometer",
+        "LABOMED Photo Slit Lamp",
+        "Topcon Non Contact Tonometer",
+        "REMDIO FUNDAS CAMERA",
         "Essilar PD Meter",
         "Digital Eye Chart",
+        "Auto Lens Edger",
+        "Digital Lensometer",
       ],
       color: "from-blue-500 to-cyan-500",
     },
@@ -93,7 +95,7 @@ function Aboutus() {
       <Navlinks />
 
       {/* Hero Section */}
-      <section 
+      <section
         className="relative pt-16 pb-20 md:pt-24 md:pb-20 flex items-center justify-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(${backgroundImage})`,

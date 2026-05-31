@@ -38,21 +38,6 @@ const FeatureCard = memo(({ title, description, Icon, color }) => (
   </div>
 ));
 
-const JourneyCard = memo(({ year, title, description, Icon, color }) => (
-  <div className="bg-white p-4 sm:p-5 rounded-lg shadow-sm border border-gray-100 transition-all hover:shadow-md duration-300 h-full">
-    <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
-      <div className={`${color} text-white p-2 sm:p-3 rounded-lg flex-shrink-0`}>
-        <Icon className="text-sm sm:text-base" />
-      </div>
-      <div className="min-w-0">
-        <h3 className="font-semibold text-gray-900 text-base sm:text-lg">{year}</h3>
-        <p className="text-xs sm:text-sm text-gray-600">{title}</p>
-      </div>
-    </div>
-    <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">{description}</p>
-  </div>
-));
-
 const DiagnosticTool = memo(({ name, Icon, color }) => (
   <div className="flex items-center gap-3 sm:gap-4 bg-white p-3 sm:p-4 rounded-lg border border-gray-100 shadow-sm transition-all hover:shadow-md duration-300">
     <div className={`${color} text-white p-2 sm:p-3 rounded-lg flex-shrink-0`}>
@@ -79,36 +64,14 @@ function Aboutus() {
 
 
   const diagnosticTools = [
-    { name: "Nidek Autorefracto Meter", Icon: FaEye, color: "bg-blue-500" },
-    { name: "LABOMED Lensometer & Auto Lens Edger", Icon: FaTools, color: "bg-green-500" },
-    { name: "Topcon Non-Contact Tonometer", Icon: FaMicroscope, color: "bg-purple-500" },
-    { name: "Remidio Photo Slit Lamp", Icon: TbLamp2, color: "bg-amber-500" },
-    { name: "Essilar PD Meter", Icon: FaMicroscope, color: "bg-purple-500" },
-    { name: "Digital Eye Chart", Icon: FaMicroscope, color: "bg-red-500" }
-  ];
-
-  const technologicalAdvancements = [
-    { 
-      year: "2020", 
-      title: "Remidio Fundus Camera Installation", 
-      description: "Installation of a Remidio Fundus Camera for advanced Retina Examination.",
-      Icon: FaCamera, 
-      color: "bg-red-500" 
-    },
-    { 
-      year: "2021", 
-      title: "Ophthalmic Imaging Upgrade", 
-      description: "Further upgrades made to support high-quality ophthalmic imaging. The Remidio Photo Slit Lamp and the NIDEK Phoropter have been installed.",
-      Icon: FaMicroscope,
-      color: "bg-indigo-500" 
-    },
-    { 
-      year: "2025", 
-      title: "Elisar Field Analyzer", 
-      description: "Introduction of the Elisar Field Analyzer, enabling comprehensive Glaucoma assessment.",
-      Icon: FaChartLine, 
-      color: "bg-emerald-500" 
-    }
+    { name: "Nidek Auto Refractometer", Icon: FaEye, color: "bg-blue-500" },
+    { name: "LABOMED Photo Slit Lamp", Icon: TbLamp2, color: "bg-emerald-500" },
+    { name: "Topcon Non Contact Tonometer", Icon: FaMicroscope, color: "bg-purple-500" },
+    { name: "REMDIO FUNDAS CAMERA", Icon: FaCamera, color: "bg-indigo-500" },
+    { name: "Essilar PD Meter", Icon: FaTools, color: "bg-amber-500" },
+    { name: "Digital Eye Chart", Icon: FaMicroscope, color: "bg-red-500" },
+    { name: "Auto Lens Edger", Icon: FaTools, color: "bg-cyan-500" },
+    { name: "Digital Lensometer", Icon: FaMicroscope, color: "bg-teal-500" }
   ];
 
   return (
@@ -202,24 +165,6 @@ function Aboutus() {
         </div>
       </section>
 
-      {/* Technological Advancements Section */}
-      <section className="py-8 sm:py-8 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="text-center mb-10 sm:mb-12">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
-              Diagnostic Capabilities Enhancement
-            </h2>
-            <p className="text-gray-600 text-sm sm:text-base max-w-3xl mx-auto leading-relaxed">
-              To enhance our diagnostic capabilities, we continued to upgrade over the years:
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {technologicalAdvancements.map((tech, i) => (
-              <JourneyCard key={i} {...tech} />
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Features Section */}
       <section className="py-8 sm:py-8 bg-white">
