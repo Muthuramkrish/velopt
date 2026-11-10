@@ -211,7 +211,7 @@ function PrivacyPolicy() {
             <div className="space-y-2 text-gray-700">
               <p><strong>📍 Store Address:</strong> {STORE_ADDRESS}</p>
               <p><strong>📞 Contact:</strong> Mob 83009 05773</p>
-              <p><strong>Optical Hours:</strong> 9:00 AM - 8:00 PM (Daily)</p>
+              <p><strong>Optical Hours:</strong> Mon - Sat: 9:00 AM - 8:00 PM</p>
             </div>
           </section>
 
